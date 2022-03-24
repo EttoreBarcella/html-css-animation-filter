@@ -263,7 +263,7 @@
 }
 
 .ex-12-top-white{
-    animation: top12 0.5s linear infinite;
+    animation: top12 1s linear infinite;
 }
 
 @keyframes top12 {
@@ -271,22 +271,22 @@
         left: 10%;
     }
     25%{
-        left: 20%;
-    }
-    50%{
         left: 30%;
     }
+    50%{
+        left: 50%;
+    }
     75%{
-        left: 40%;
+        left: 30%;
     }
     100%{
-        left: 50%;
+        left: 10%;
     }
 }
 
 
 .ex-12-bottom-white{
-    animation: btm12 0.5s linear infinite;
+    animation: btm12 1s linear infinite;
 }
 
 @keyframes btm12 {
@@ -294,21 +294,21 @@
         right: 20%;
     }
     25%{
-        right: 30%;
-    }
-    50%{
         right: 40%;
     }
+    50%{
+        right: 70%;
+    }
     75%{
-        right: 50%;
+        right: 40%;
     }
     100%{
-        right: 60%;
+        right: 20%;
     }
 }
 
 .ex-13-top-white{
-    animation: top13 4s linear infinite;
+    animation: top13 4s ease-out infinite;
 }
 
 @keyframes top13 {
@@ -326,11 +326,11 @@
     }
     60%{
         top: 100%;
-        left: 0;
+        left: -3px;
     }
     80%{
         top: 0;
-        left: 0;
+        left: -3px;
     }
     100%{
         top: -10px;
@@ -357,11 +357,11 @@
     }
     60%{
         bottom: 100%;
-        right: 0;
+        right: -3px;
     }
     80%{
         bottom: 0;
-        right: 0;
+        right: -3px;
     }
 
     100%{
