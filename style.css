@@ -262,4 +262,47 @@
     height: 20px;
 }
 
-.
+.ex-12-top-white{
+    animation: top12 0.5s linear infinite;
+}
+
+@keyframes top12 {
+    0%{
+        left: 10%;
+    }
+    25%{
+        left: 20%;
+    }
+    50%{
+        left: 30%;
+    }
+    75%{
+        left: 40%;
+    }
+    100%{
+        left: 50%;
+    }
+}
+
+
+.ex-12-bottom-white{
+    animation: btm12 0.5s linear infinite;
+}
+
+@keyframes btm12 {
+    0%{
+        right: 20%;
+    }
+    25%{
+        right: 30%;
+    }
+    50%{
+        right: 40%;
+    }
+    75%{
+        right: 50%;
+    }
+    100%{
+        right: 60%;
+    }
+}
